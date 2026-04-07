@@ -14,4 +14,4 @@ def reverse_list(lista):
     if len(lista) != 0:
         return lista[::-1]
     else:
-        return(li
+        return(lista)
