@@ -12,4 +12,10 @@ def get_element(lista, indice):
     Returns:
         El elemento en la posición indicada o None si está fuera de rango
     """
-    pass  # Reemplazar con tu implementación
+    if len(lista) != 0:
+        if indice > len(lista) or indice < len(lista) *-1:
+            return(None)
+        else:
+            return(lista[indice])
+    else:
+        return(None)
